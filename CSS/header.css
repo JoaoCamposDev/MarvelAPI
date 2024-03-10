@@ -1,0 +1,68 @@
+.header {
+    padding: 10px 10px 70px 10px;
+    background-color: #BB0909;
+}
+
+.header img {
+    width: 110px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    display: flex;
+}
+
+.header #linha {
+    background-color: rgba(255, 255, 255, 0.736);
+    padding: 0.1px;
+    margin-top: -60px;
+}
+
+.header #nomeLogo {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 21px;
+}
+
+.header #elementosHeader {
+    width: 30%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    transition-delay: 0.3ms;
+}
+
+.header #elementosHeader:hover {
+    cursor: pointer;
+    transform: translateY(-4px);
+
+}
+
+/* Responsividade */
+
+@media (max-width: 480px) {
+
+.header #elementosHeader {
+        width: 50%;
+    }
+
+.header img{
+    width: 40%;
+}
+
+.header #nomeLogo {
+    font-size: 15px;
+}
+
+.header #linha {
+    margin-top: -40px;
+}
+
+}  

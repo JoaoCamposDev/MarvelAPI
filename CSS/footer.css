@@ -1,0 +1,184 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer {
+    padding: 30px 10px 90px 10px;
+    background-color: #BB0909;
+    margin-top: 20%;
+}
+
+.footer img {
+    width: 80px;
+    height: auto;
+    margin-left: 2%;
+}
+
+.footer #linhaFooter {
+    background-color: rgba(255, 255, 255, 0.736);
+    padding: 0.1px;
+    transform: rotate(90deg);
+    width: 180px;
+    margin-left: 10%;
+    margin-top: -30px;
+}
+
+.footer #nomelogoFooter {
+    color: white;
+    font-size: 13px;
+    margin-left: 2%;
+}
+
+.footer #elementosFooter {
+    margin-top: 180px;
+    margin-left: 30px;
+    width: 10%;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    transition-delay: 0.3ms;
+}
+
+.footer #elementosFooter:hover {
+    cursor: pointer;
+    transform: translateY(-4px);
+}
+
+#txtFooter {
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -50px;
+    justify-content: center;
+    display: flex;
+    width: 25%;
+}
+
+.footer #opcoesFooter {
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-evenly;
+    display: flex;
+    color: white;
+    justify-items: center;
+}
+
+.footer #homeFooter,
+.footer #equipeFooter,
+.footer #personagensFooter {
+    background-color: rgb(223, 223, 223);
+    width: 12%;
+    height: 80px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    transition-delay: 0.3ms;
+    border-radius: 50%;
+}
+
+.footer #homeFooter:hover,
+.footer #equipeFooter:hover,
+.footer #personagensFooter:hover {
+    cursor: pointer;
+    transform: translateY(-4px);
+}
+
+.footer #homeFooter img,
+.footer #equipeFooter img,
+.footer #personagensFooter img {
+    width: 70%;
+    height: 60px;
+    margin-top: 10px;
+    margin-left: 15%;
+}
+
+.footer #nomesFooter {
+    position: absolute;
+    width: 60%;
+    margin-right: auto;
+    justify-content: space-evenly;
+    display: flex;
+    color: white;
+    justify-items: center;
+    margin-top: -40px;
+    font-size: 20px;
+}
+
+.footer #nomesFooter #home {
+    margin-left: 30px;
+}
+
+.footer #nomesFooter #equipe {
+    margin-left: -50px;
+}
+
+.footer #nomesFooter #personagens {
+    margin-left: -60px;
+}
+
+/* responsividade */
+
+@media (max-width: 480px) {
+
+#txtFooter {
+    width: 100%;
+}
+
+#txtFooter h2{
+    margin-top: 20px;
+    font-size: 15px;
+    margin-left: 37%;
+}
+
+.footer #elementosFooter img {
+    width: 15%;
+    margin-top: 50px;
+}
+
+.footer #elementosFooter h1{
+    font-size: 20px;
+}
+
+.footer #linhaFooter {
+    width: 150px;
+    margin-left: 60px;
+}
+
+.footer #opcoesFooter{
+    width: 50%;
+    margin-left:40%; 
+    margin-top: -30px;
+}
+
+.footer #homeFooter,
+.footer #equipeFooter,
+.footer #personagensFooter {
+    width: 20%;
+    height: 60px;
+    margin-left: 13%;
+}
+
+.footer #homeFooter img,
+.footer #equipeFooter img,
+.footer #personagensFooter img {
+    width: 72%;
+    height: 40px;
+}
+
+.footer #nomesFooter {
+    width: 70%;
+}
+
+.footer #nomesFooter p{
+    font-size: 13px;
+}
+
+.footer #nomesFooter #home {
+    margin-left: -1px;
+}
+
+.footer #nomesFooter #personagens {
+    margin-right: -50px;
+}
+
+
+}

@@ -1,0 +1,167 @@
+body {
+    background-color: rgb(237, 237, 237);
+}
+
+body #cont1 {
+    background: #f0f0f0;
+    background: repeating-radial-gradient(circle farthest-corner at top right, #f0f0f0 0%, #ffffff 30%);
+    background: -webkit-repeating-radial-gradient(circle farthest-corner at top right, #f0f0f0 0%, #ffffff 30%);
+    background: -moz-repeating-radial-gradient(circle farthest-corner at top right, #f0f0f0 0%, #ffffff 30%);
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+#imgHome img{
+    margin-top: -180px;
+    width: 40%;
+    height: auto;
+    margin-left: 58%;
+}
+
+.container-home #txtHome {
+    margin-top: 150px;
+    width: 38%;
+    margin-left: 10%;
+}
+
+.container-home #txtHome h1{
+    margin-left: 30%;
+    font-size: 40px;
+}
+
+.container-home #txtHome p {
+    font-size: 22px;
+    text-align: center;
+}
+
+#titulo2Home {
+    font-size: 22px;
+    background-color: rgb(199, 196, 196);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#personagensHome {
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    padding: 70px 30px 70px 30px;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    flex-direction: column;
+    border-radius: 15px;
+    box-shadow: 28px 22px 31px -9px rgba(180,180,180,0.75);
+    -webkit-box-shadow: 28px 22px 31px -9px rgba(180,180,180,0.75);
+    -moz-box-shadow: 28px 22px 31px -9px rgba(180,180,180,0.75);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#personagensHome h1{
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#personagensHome img {
+    width: 180px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#personagensHome:hover {
+    cursor: pointer;
+    transform: scale(1.1) skew(1deg) translate(3px,-8px);
+    -webkit-transform: scale(1.1) skew(1deg) translate(3px,-8px);
+    -moz-transform: scale(1.1) skew(1deg) translate(3px,-8px);filter: brightness(80%);
+    -webkit-filter: brightness(90%);
+    -moz-filter: brightness(90%);
+}
+
+#personagensHome #linhaHome {
+    margin-top: 40px;
+    background-color: rgb(130, 130, 130);
+    width: 80%;
+    padding: 0.1px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* responsividade */
+
+@media (max-width: 480px) {
+
+    #cont1 .container-home #txtHome h1 {
+        font-size: 30px;
+        margin-left: 0px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #cont1 .container-home #txtHome p {
+        font-size: 18px;
+    }
+    
+    #cont1 .container-home #txtHome {
+        width: 87%;
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #cont1 #imgHome img {
+        width: 90%;
+        margin-top: 15px;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+    }
+    
+    #titulo2Home h1{
+        font-size: 30px;
+    }
+    
+    body #personagensHome {
+        margin-top: 50px;
+        width: 65%;
+        height: 40px;
+    }
+    
+    body #personagensHome h1 {
+        font-size: 23px;
+        margin-bottom: 12px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    body #imgMarvelHome img {
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    body #personagensHome #linhaHome {
+        margin-top: 10px;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+        
+    }

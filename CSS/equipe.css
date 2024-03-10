@@ -1,0 +1,135 @@
+#desenvolvedores {
+    display: flex;
+    margin-top: 70px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 150px 20px 100px 20px;
+    background-color: rgb(215, 215, 215);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    position: relative;
+    border-radius: 15px;
+}
+
+#desenvolvedores:hover {
+    transform: translateY(-4px);
+    background-color: rgb(186, 186, 186);
+}
+
+#desenvolvedores #nomeDev {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 25px;
+    width: 100%;
+    background-color: #e30f0f;
+    color: white;
+    padding: 10px 0px 10px 0px;
+}
+
+#desenvolvedores #nomeDev h3 {
+    display: flex;
+    justify-content: center;
+}
+
+#desenvolvedores #fotoDev {
+    position: absolute;
+    top: 58px;
+    left: 0;
+    margin-left: 2%;
+}
+
+#desenvolvedores #fotoDev img {
+    display: flex;
+    width: 275px;
+    height: 275px;
+    border-radius: 2px;
+}
+
+#desenvolvedores #conteudoAdicional p {
+    display: flex;
+    justify-items: center;
+    font-size: 22px;
+    margin-left: 50%;
+    width: 77%;
+}
+
+#desenvolvedores #btnsDev {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#desenvolvedores #btnsDev img {
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#desenvolvedores #btnsDev img:hover {
+    transform: translateY(-6px);
+}
+
+#desenvolvedores #github img {
+    width: 50px;
+    height: auto;
+    padding: 10px;
+}
+
+#desenvolvedores #linkedin img {
+    width: 50px;
+    height: auto;
+    padding: 10px;
+}
+
+/* responsividade */
+
+@media (max-width: 480px) {
+
+#desenvolvedores #nomeDev h3 {
+    font-size: 22px;
+}
+
+#desenvolvedores #fotoDev img {
+    width: 60%;
+    height: 100px;
+    margin-left: 100px;
+}
+
+#desenvolvedores #conteudoAdicional {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+#desenvolvedores #conteudoAdicional p {
+    font-size: 13px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#desenvolvedores #btnsDev img{
+    margin-top: -130px;
+}
+
+#btnsDev #linkedin {
+    width: 32%;
+    margin-left: 30px;
+    margin-bottom:-20px;
+}
+
+#desenvolvedores #btnsDev #linkedin img {
+    width: 30%;
+    margin-left: 75%;
+}
+
+#desenvolvedores #btnsDev #github img {
+    width: 10%;
+    margin-left: 60%;
+}
+
+}
