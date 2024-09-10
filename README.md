@@ -1,6 +1,7 @@
 Projeto MARVEL API
 
 Nome dos personagens deve ser escrito em Inglês.
+
 Link: https://marveluniverse-joaodev.netlify.app/
 
 Esse é um projeto criado por mim durante uma das atividades do curso técnico de Desenvolvimento de Sistemas do SENAI Suíço-Brasileiro "Paulo Ernesto Tolle".
